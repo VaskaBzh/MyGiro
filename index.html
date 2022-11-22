@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>My-Giro</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header id="up" class="header section">
+    <div class="wrapper wrapper--flex">
+      <a href="#" class="logo header__logo">
+        <img src="./img/logo-blue.png" alt="logo" class="logo__img">
+      </a>
+      <div class="contacts header__contacts">
+        <a href="tel:89888877766" class="contacts__elem text text--big">8-988-887-77-66</a>
+        <a href="tel:89888877766" class="contacts__elem text text--big">8-988-887-77-66</a>
+      </div>
+      <a href="#phone" class="popup button button--blue">Заказать звонок</a>
+    </div>
+  </header>
+  <section class="hero section">
+    <div class="wrapper">
+      <h1 class="title title--h1">Преимущества My-Giro</h1>
+      <div class="slider">
+        <div class="slider__button slider__button--left"><img src="./img/left.png" alt="" class="slider__button-arrow"></div>
+        <div class="slider__wrapper">
+          <div class="slider__move">
+            <div class="slider__slide">
+              <img src="./img/1.png" alt="slide" class="slider__slider-img">
+              <span class="text text--large">У нас все по полочкам</span>
+            </div>
+            <div class="slider__slide">
+              <img src="./img/2.png" alt="slide" class="slider__slider-img">
+              <span class="text text--large">Быстрые ответы поддержки</span>
+            </div>
+            <div class="slider__slide">
+              <img src="./img/3.png" alt="slide" class="slider__slider-img">
+              <span class="text text--large">Подтверденная квалификация</span>
+            </div>
+            <div class="slider__slide">
+              <img src="./img/4.png" alt="slide" class="slider__slider-img">
+              <span class="text text--large">Скорая доставка</span>
+            </div>
+          </div>
+        </div>
+        <div class="slider__button slider__button--right"><img src="./img/right.png" alt="" class="slider__button-arrow"></div>
+      </div>
+    </div>    
+  </section>
+  <section class="section specials">
+    <div class="wrapper">
+      <h2 class="title title--h2 title--reverce">Особенности нашей продукции</h2>
+      <div class="specials__block row">
+        <div class="specials__imgs">
+          <img class="specials__img" src="./img/specials/1.jpg" alt="pic">
+          <img class="specials__img specials__img--back" src="./img/specials/3.jpg" alt="pic">
+        </div>
+        <div class="text__block">
+          <p class="text text--big">Мы продаем Устройства приносящие простое удовольствие семьям.</p>
+          <p class="text text--big">
+            Дети точно полюбят освежающие поездки на надежных колесах, даже роджителям будет интересно встать и прочувствовать комфорт передвижения</p>
+        </div>
+      </div>
+      <div class="specials__block row">
+        <div class="text__block">
+          <p class="text text--big">Мы продаем Устройства приносящие простое удовольствие семьям.</p>
+          <p class="text text--big">
+            Дети точно полюбят освежающие поездки на надежных колесах, даже роджителям будет интересно встать и прочувствовать комфорт передвижения</p>
+        </div>
+        <div class="specials__imgs">
+          <img class="specials__img" src="./img/specials/2.jpg" alt="pic">
+          <img class="specials__img specials__img--back" src="./img/specials/4.jpg" alt="pic">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section products">
+    <div class="wrapper">
+      <div class="products__wrapper">
+        <h2 class="title title--h2">Наши устройства</h2>
+        <select class="list" name="list" id="">
+          <option value="Все" selected>Все</option>
+          <option value="Гироскутер">Гироскутер</option>
+          <option value="Самокат">Самокат</option>
+          <option value="Сигвей">Сигвей</option>
+        </select>
+      </div>
+      <div class="products__list row">
+        <div class="col-30">
+          <a href="#" class="products__block" data-type="giros">
+            <span class="text text--medium">1. Гироскутер Smart Balance 10 Красный <strong>6500 р.</strong> </span>
+            <img src="./img/giros/1.jpg" alt="product" class="products__img">
+          </a>
+          <a href="#" class="products__block" data-type="giros">
+            <span class="text text--medium">2. Гироскутер Smart Balance Premium 10 Цветные Молнии <strong>10 990 р.</strong> </span>
+            <img src="./img/giros/2.jpg" alt="product" class="products__img">
+          </a>
+          <a href="#" class="products__block" data-type="giros">
+            <span class="text text--medium">3. Гироскутер Smart Balance SUV Черная Молния 10.5" Premium PRO <strong>8 590 р.</strong> </span>
+            <img src="./img/giros/3.jpg" alt="product" class="products__img">
+          </a>
+        </div>
+        <div class="col-30">
+          <a href="#" class="products__block" data-type="scooters">
+            <span class="text text--medium">1. Xiaomi Mijia Electric Scooter m187 Black черный <strong>20 480 р.</strong> </span>
+            <img src="./img/scooters/1.jpg" alt="product" class="products__img">
+          </a>
+          <a href="#" class="products__block" data-type="scooters">
+            <span class="text text--medium">2. Электросамокат KUGOO S4 (8800mAh) <strong>13 480 р.</strong> </span>
+            <img src="./img/scooters/2.jpg" alt="product" class="products__img">
+          </a>
+          <a href="#" class="products__block" data-type="scooters">
+            <span class="text text--medium">3. Электросамокат SUBOR D9 11 790 р.</span>
+            <img src="./img/scooters/3.jpg" alt="product" class="products__img">
+          </a>
+        </div>
+        <div class="col-30">
+          <a href="#" class="products__block" data-type="segway">
+            <span class="text text--medium">1. Сигвей Xiaomi Ninebot mini Pro Black (Черный) <strong>31 480 р.</strong> </span>
+            <img src="./img/segways/1.jpg" alt="product" class="products__img">
+          </a>
+          <a href="#" class="products__block" data-type="segway">
+            <span class="text text--medium">2. Сигвей Xiaomi Ninebot mini Pro White (Белый) <strong>31 480 р.</strong> </span>
+            <img src="./img/segways/2.jpg" alt="product" class="products__img">
+          </a>
+          <a href="#" class="products__block" data-type="segway">
+            <span class="text text--medium">3. Сигвей Xiaomi Ninebot mini White (Белый) <strong>14 790 р.</strong> </span>
+            <img src="./img/segways/3.jpg" alt="product" class="products__img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section consultants">
+    <div class="wrapper">
+      <h2 class="title title--h2 title--reverce">Наши консультанты</h2>
+      <div class="row consultants__wrapper">
+        <img src="./img/consultants/1.png" alt="consultant" class="consultants__img">
+        <img src="./img/consultants/2.png" alt="consultant" class="consultants__img">
+        <img src="./img/consultants/3.png" alt="consultant" class="consultants__img">
+      </div>
+      <p class="text text--large">Настоящие профессиональы своего дела</p>
+    </div>
+  </section>
+  <section class="section info">
+    <div class="wrapper">
+      <h2 class="title title--h2">Это важно</h2>
+      <div class="row">
+        <img src="./img/about-us-bg.png" alt="info" class="info__img">
+        <div class="text__block">
+          <p class="text text--big">Гарантируем вам пожизненную гарантию на официально приобретенные товары.</p>
+          <p class="text text--big">Для ремонты нужны только лишь документы на устройство или чек</p>
+          <p class="text text--big">Наши офисы обслуживания расположены в крупнейших мегаполисах планеты</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section sub">
+    <div class="wrapper">
+      <h2 class="title title--h1 title--reverce">Подпишись и узнавай о новинках</h2>
+      <div class="row">
+        <form action="#" class="form col-50">
+          <input class="input input--blue" type="text" placeholder="Имя">
+          <input class="input input--blue" type="email" placeholder="E-mail">
+          <button class="button button--blue">Подписаться</button>
+        </form>
+        <div class="sub__block">
+          <p class="text text--large">Поможем вам в любое время</p>
+        </div>
+      </div>
+    </div>
+    <a href="#up" class="up"><img src="./img/go_up.png" alt="up">
+    </a>
+  </section>
+  <footer class="footer section">
+    <div class="wrapper row">
+      <a href="#" class="logo footer__logo">
+        <img src="./img/logo-blue.png" alt="logo" class="logo__img">
+      </a>
+      <div class="contacts footer__contacts">
+        <a href="tel:89888877766" class="contacts__elem text text--big">8-988-887-77-66</a>
+        <a href="tel:89888877766" class="contacts__elem text text--big">8-988-887-77-66</a>
+      </div>
+      <button class="button button--blue">Заказать звонок</button>
+    </div>
+  </footer>
+  <div class="popup__wrapper">
+    <div id="phone" class="modal">
+      <div class="modal__wrapper">
+        <div class="modal__close"><div class="modal__close-cross">x</div></div>
+        <h3 class="title title--h3">Мы перезвоним в течении 3 минут</h3>
+        <form action="#" class="form col-50">
+          <input class="input input--black" type="text" placeholder="Имя">
+          <input class="input input--black" type="email" placeholder="E-mail">
+          <button class="button button--blue">Заказать звонок</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
